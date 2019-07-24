@@ -1,0 +1,4 @@
+name: UMCChunkLoader
+main: com.zeshanaslam.umcchunkloader.Main
+version: 1.0.0
+depend: [HolographicDisplays]

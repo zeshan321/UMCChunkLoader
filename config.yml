@@ -1,0 +1,25 @@
+# Make sure display is unique across items in-game.
+Item:
+  Material: DIAMOND_BLOCK
+  # -1 for none
+  ByteData: -1
+  Display: "&bChunk Anchor"
+  Lore:
+    - "&aPlace to anchor chunk."
+  Glow: true
+
+Hologram:
+  XOffset: 0.5
+  YOffset: 2
+  ZOffset: 0.5
+  Text:
+    - "&bWorld anchor"
+    - "&bOwner: &a%owner%"
+
+Messages:
+  InventoryFull: "&bYour inventory is full. Anchor has been dropped under you."
+  GivenAnchor: "&bYou have been give anchor item."
+  GavePlayerAnchor: "&bSuccessfully have player anchor item."
+  PlacedAnchor: "&bPlaced anchor!"
+  NotOwner: "&bOnly the owner of the anchor can break it."
+  BrokeAnchor: "&bYou broke the anchor!"
